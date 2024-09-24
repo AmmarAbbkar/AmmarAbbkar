@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined CSS Styles Example</title>
+
+    <!-- External style sheet link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Internal Style Sheet -->
+    <style>
+        /* Internal Style Sheet */
+        h1 {
+            color: purple; /* Overwrites external CSS */
+            margin-left: 2cm;
+        }
+        h2 {
+            color: orange; /* Overwrites external CSS */
+            margin-left: 4cm;
+        }
+        p {
+            text-indent: 2cm;
+            color: darkred; /* Overwrites external CSS */
+            margin-left: 6cm;
+        }
+    </style>
+</head>
+<body>
+    <!-- In-line Style Example -->
+    <h1 style="color:red;margin-left:2cm;">h1 heading (In-line style)</h1>
+    <h2 style="color:red;margin-left:4cm;">h2 subheading (In-line style)</h2>
+    <p style="text-indent:2cm;color:darkred;margin-left:6cm;">Paragraph 1 (In-line style)</p>
+    <p style="text-indent:2cm;color:darkred;margin-left:6cm;">Paragraph 2 (In-line style)</p>
+
+    <!-- Internal Style Sheet Example -->
+    <h1>h1 heading (Internal style)</h1>
+    <h2>h2 subheading (Internal style)</h2>
+    <p>Paragraph 1 (Internal style)</p>
+    <p>Paragraph 2 (Internal style)</p>
+
+    <!-- External Style Sheet Example -->
+    <h1>h1 heading (External style)</h1>
+    <h2>h2 subheading (External style)</h2>
+    <p>Paragraph 1 (External style)</p>
+    <p>Paragraph 2 (External style)</p>
+</body>
+</html>
+

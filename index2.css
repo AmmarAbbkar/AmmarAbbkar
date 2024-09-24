@@ -1,0 +1,60 @@
+/* Set font to sans-serif for the entire page */
+body {
+    font-family: sans-serif;
+    background-image: url('AmmarAbbkar.PNG');
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity:0.8;
+    color: #333;
+	font-weight:bold;
+	color: black;
+}
+
+
+
+
+/* Style for header */
+header {
+    text-align: center;
+}
+
+/* Table styling (zebra stripes) */
+/* Zebra-striped table with three alternating row colors */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(3n+1) {
+    background-color: #f2d7d5; /* Light pink */
+}
+
+table tr:nth-child(3n+2) {
+    background-color: #d5f5e3; /* Light green */
+}
+
+table tr:nth-child(3n+3) {
+    background-color: #d6eaf8; /* Light blue */
+}
+
+table a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Default color for links */
+}
+
+table a:hover {
+    color: red; /* Change color on hover */
+}
+
+
+/* Links hover effect */
+a:hover {
+    color: red;
+}
+
+/* Bold and red for specific words */
+span.georgia-state, span.computer-science, span.custom-word {
+    font-weight: bold;
+    color: red;
+}
